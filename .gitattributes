@@ -1,0 +1,2 @@
+SHWVideoTemplate/Frameworks/App.framework/App filter=lfs diff=lfs merge=lfs -text
+SHWVideoTemplate/Frameworks/Flutter.framework/Flutter filter=lfs diff=lfs merge=lfs -text
