@@ -33,7 +33,8 @@
     [button sizeToFit];
     
     MgcVideoTemplateManager *instance = [MgcVideoTemplateManager sharedManager];
-    [instance setToken: @"F1294B4EBD2838B2F7A2ECB45AD5912D" AndEventId:@"uB+97yQIvwgBAawfPAurfngb"];
+#pragma mark --- 填写 自己的 token  和  eventId ----------
+    [instance setToken: @"xxxxx" AndEventId:@"xxxx"];
     
     instance.resultBlock = ^(NSString * _Nonnull resultPath) {
         NSLog(@"合成路径：%@",resultPath);
