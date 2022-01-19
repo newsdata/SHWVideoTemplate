@@ -6,8 +6,6 @@
 
 #import "GeneratedPluginRegistrant.h"
 
-#import <SHWJianBeiMix/SHWJianBeiMix.h>
-
 #if __has_include(<audioplayers/AudioplayersPlugin.h>)
 #import <audioplayers/AudioplayersPlugin.h>
 #else
@@ -110,7 +108,6 @@
 @import video_thumbnail;
 #endif
 
-
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
@@ -131,7 +128,6 @@
   [FLTURLLauncherPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTURLLauncherPlugin"]];
   [FLTVideoPlayerPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTVideoPlayerPlugin"]];
   [VideoThumbnailPlugin registerWithRegistrar:[registry registrarForPlugin:@"VideoThumbnailPlugin"]];
-
 }
 
 @end
