@@ -1,2 +1,26 @@
-SHWVideoTemplate/Frameworks/App.framework/App filter=lfs diff=lfs merge=lfs -text
-SHWVideoTemplate/Frameworks/Flutter.framework/Flutter filter=lfs diff=lfs merge=lfs -text
+# SHWVideoTemplate/Frameworks/App.framework/App filter=lfs diff=lfs merge=lfs -text
+# SHWVideoTemplate/Frameworks/Flutter.framework/Flutter filter=lfs diff=lfs merge=lfs -text
+SHWVideoTemplate/Frameworks/App.framework/App binary 
+SHWVideoTemplate/Frameworks/Flutter.framework/Flutter binary
+SHWVideoTemplate/Frameworks/AliyunOSSiOS.framework/AliyunOSSiOS binary
+SHWVideoTemplate/Frameworks/audioplayers.framework/audioplayers binary
+SHWVideoTemplate/Frameworks/connectivity.framework/connectivity binary
+SHWVideoTemplate/Frameworks/device_info.framework/device_info binary
+SHWVideoTemplate/Frameworks/flutter_image_compress.framework/flutter_image_compress binary
+SHWVideoTemplate/Frameworks/flutter_mgc_util.framework/flutter_mgc_util binary
+SHWVideoTemplate/Frameworks/flutter_mix_player.framework/flutter_mix_player binary
+SHWVideoTemplate/Frameworks/flutter_statusbarcolor.framework/flutter_statusbarcolor binary
+SHWVideoTemplate/Frameworks/oss_flutter.framework/oss_flutter binary
+SHWVideoTemplate/Frameworks/package_info.framework/package_info binary
+SHWVideoTemplate/Frameworks/path_provider.framework/path_provider binary
+SHWVideoTemplate/Frameworks/permission_handler.framework/permission_handler binary
+SHWVideoTemplate/Frameworks/photo_manager.framework/photo_manager binary
+SHWVideoTemplate/Frameworks/shared_preferences.framework/shared_preferences binary
+SHWVideoTemplate/Frameworks/SHWJianBeiMix.framework/SHWJianBeiMix binary
+SHWVideoTemplate/Frameworks/SHWMixMobile.framework/SHWMixMobile binary
+SHWVideoTemplate/Frameworks/sqflite.framework/sqflite binary
+SHWVideoTemplate/Frameworks/url_launcher.framework/url_launcher binary
+SHWVideoTemplate/Frameworks/video_player.framework/video_player binary
+SHWVideoTemplate/Frameworks/video_thumbnail.framework/video_thumbnail binary
+
+SHWVideoTemplate/Frameworks/*.framework/*  filter=lfs diff=lfs merge=lfs -text
