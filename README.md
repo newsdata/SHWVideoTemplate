@@ -27,3 +27,5 @@ shicahgnshun-xhzy, shichangshun@xhzy
 ## License
 
 SHWVideoTemplate is available under the MIT license. See the LICENSE file for more info.
+
+#### 特殊说明： 由于使用了git lfs 大文件上传，所以下载代码需要 使用git clone 命令来下载代码。 download zip 会缺少文件 ####
