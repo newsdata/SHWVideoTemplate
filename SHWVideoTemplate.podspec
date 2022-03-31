@@ -46,4 +46,9 @@ TODO: Add long description of the pod here.
    s.dependency 'YYCategories', '>= 1.0.4'
    s.dependency 'Mantle', '>= 2.2.0'
    
+   s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+   
 end
