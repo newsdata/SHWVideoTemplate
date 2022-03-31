@@ -23,4 +23,4 @@ SHWVideoTemplate/Frameworks/url_launcher.framework/url_launcher binary
 SHWVideoTemplate/Frameworks/video_player.framework/video_player binary
 SHWVideoTemplate/Frameworks/video_thumbnail.framework/video_thumbnail binary
 
-SHWVideoTemplate/Frameworks/*.framework/*  filter=lfs diff=lfs merge=lfs -text
+# SHWVideoTemplate/Frameworks/*.framework/*  filter=lfs diff=lfs merge=lfs -text
