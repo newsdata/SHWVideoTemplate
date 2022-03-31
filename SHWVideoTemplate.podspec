@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SHWVideoTemplate'
-  s.version          = '0.1.3'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of SHWVideoTemplate.'
 
 # This description is used to generate tags and improve search results.
@@ -46,9 +46,5 @@ TODO: Add long description of the pod here.
    s.dependency 'YYCategories', '>= 1.0.4'
    s.dependency 'Mantle', '>= 2.2.0'
    
-   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-  }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
    
 end
