@@ -34,17 +34,19 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks = 'SHWVideoTemplate/Frameworks/App.framework','SHWVideoTemplate/Frameworks/*.framework'
   
   
-   s.dependency 'Masonry', '>= 1.1.0'
-   s.dependency 'MJExtension', '>= 3.4.1'
-   s.dependency 'YYModel', '>= 1.0.4'
+   s.dependency 'Masonry'
+   s.dependency 'MJExtension'
+   s.dependency 'YYModel'
    s.dependency 'AliyunOSSiOS', '>= 2.10.7'
    s.dependency 'AFNetworking', '>= 4.0'
    s.dependency 'Reachability', '>= 3.2'
-   s.dependency 'Realm', '4.3.0'
+   s.dependency 'Realm', '>= 4.3.0'
    s.dependency 'FMDB', '>= 2.7.5'
    s.dependency 'libwebp', '>= 1.2.1'
    s.dependency 'YYCategories', '>= 1.0.4'
    s.dependency 'Mantle', '>= 2.2.0'
+   s.dependency 'SDWebImage'
+   s.dependency 'SDWebImageWebPCoder'
    
    
 end

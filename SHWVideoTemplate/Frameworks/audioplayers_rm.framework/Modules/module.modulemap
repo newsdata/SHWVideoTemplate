@@ -1,0 +1,11 @@
+framework module audioplayers_rm {
+  umbrella header "audioplayers_rm-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module audioplayers_rm.Swift {
+    header "audioplayers_rm-Swift.h"
+    requires objc
+}

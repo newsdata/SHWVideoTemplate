@@ -1,0 +1,6 @@
+framework module package_info_rm {
+  umbrella header "package_info_rm-umbrella.h"
+
+  export *
+  module * { export * }
+}

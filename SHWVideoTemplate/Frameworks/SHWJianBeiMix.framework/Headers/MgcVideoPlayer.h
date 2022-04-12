@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Flutter/Flutter.h>
-#import <Flutter/FlutterPlugin.h>
+#import <FlutterSDK/FlutterSDK.h>
 
 @class BPMixWindow;
 

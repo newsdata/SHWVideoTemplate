@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Flutter/FlutterPlugin.h>
+#import <FlutterSDK/FlutterPluginSDK.h>
 
 
 @interface MgcCaptureFrameEventSink : NSObject <FlutterStreamHandler>

@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Flutter/FlutterPlugin.h>
+#import <FlutterSDK/FlutterPluginSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

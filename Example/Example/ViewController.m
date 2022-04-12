@@ -8,14 +8,13 @@
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
-#import <Flutter/Flutter.h>
-#import "AppDelegate.h"
-#import "GeneratedPluginRegistrant.h"
+#import <FlutterSDK/FlutterSDK.h>
+#import "RMGeneratedPluginRegistrant.h"
 #import <SHWJianBeiMix/SHWJianBeiMix.h>
 
 @interface ViewController ()<UITextFieldDelegate>
 
-@property (nonatomic,strong) FlutterEngine *engine;
+@property (nonatomic,strong) FlutterEngineSDK *engine;
 
 @property (nonatomic,strong) NSString *token;
 
@@ -48,7 +47,6 @@
     eventIdField.tag = 20;
     eventIdField.delegate = self;
     [self.view addSubview:eventIdField];
-    
     
     MgcVideoTemplateManager *instance = [MgcVideoTemplateManager sharedManager];
 
@@ -84,16 +82,21 @@
 
 - (void)tapButton:(UIButton *)button {
     
-    self.engine = [[FlutterEngine alloc]initWithName:@"io.flutter"];
+    self.engine = [[FlutterEngineSDK alloc]initWithName:@"io.flutter"];
     [self.engine run];
     
-    FlutterViewController *vc = [[FlutterViewController alloc]initWithEngine:self.engine nibName:nil bundle:nil];
+    FlutterViewControllerSDK *vc = [[FlutterViewControllerSDK alloc]initWithEngine:self.engine nibName:nil bundle:nil];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
     
-    [GeneratedPluginRegistrant registerWithRegistry:vc];
+    [RMGeneratedPluginRegistrant registerWithRegistry:vc];
     [MgcPluginRegistrant registerWithRegistry:vc];
     
 #pragma mark --- 填写 自己的 token  和  eventId ----------
+    
+    self.token = @"A8C54C35ED5476A08859D07F34BC9BF3";
+    self.eventId = @"5JClsugYQmYBAawe/j5k2K5/";
+    
+    
     if (self.token && self.eventId) {
         [[MgcVideoTemplateManager sharedManager] setToken:self.token AndEventId:self.eventId];
     }

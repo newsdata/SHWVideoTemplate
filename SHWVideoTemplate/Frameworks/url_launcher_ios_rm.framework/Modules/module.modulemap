@@ -1,0 +1,6 @@
+framework module url_launcher_ios_rm {
+  umbrella header "url_launcher_ios_rm-umbrella.h"
+
+  export *
+  module * { export * }
+}

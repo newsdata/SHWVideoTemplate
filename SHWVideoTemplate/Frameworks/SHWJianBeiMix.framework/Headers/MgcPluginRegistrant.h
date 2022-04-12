@@ -6,7 +6,7 @@
 //  Copyright © 2019 The Chromium Authors. All rights reserved.
 //
 
-#import <Flutter/Flutter.h>
+#import <FlutterSDK/FlutterSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface MgcPluginRegistrant : NSObject
 
-+ (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry;
++ (void)registerWithRegistry:(NSObject<FlutterPluginRegistrySDK>*)registry;
 
 @end
 

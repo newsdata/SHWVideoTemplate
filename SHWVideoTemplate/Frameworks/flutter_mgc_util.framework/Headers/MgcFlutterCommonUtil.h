@@ -5,8 +5,8 @@
 //  Created by yehot on 2019/12/31.
 //
 
-#import <Flutter/Flutter.h>
+#import <FlutterSDK/FlutterSDK.h>
 
-@interface MgcFlutterCommonUtil : NSObject <FlutterPlugin>
+@interface MgcFlutterCommonUtil : NSObject <FlutterPluginSDK>
 
 @end

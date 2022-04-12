@@ -1,4 +1,4 @@
-#import <Flutter/Flutter.h>
+#import <FlutterSDK/FlutterSDK.h>
 
-@interface FlutterStatusbarcolorPlugin : NSObject<FlutterPlugin>
+@interface FlutterStatusbarcolorPlugin : NSObject<FlutterPluginSDK>
 @end

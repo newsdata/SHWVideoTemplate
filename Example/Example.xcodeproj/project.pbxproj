@@ -378,6 +378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C92AAB93E1289C6417CD84A2 /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -420,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8DF8A12E032D492A12F82B44 /* Pods-Example.release.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;

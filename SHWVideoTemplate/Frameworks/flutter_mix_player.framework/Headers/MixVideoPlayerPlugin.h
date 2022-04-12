@@ -5,11 +5,11 @@
 //  Created by yehot on 2019/12/2.
 //
 
-#import <Flutter/Flutter.h>
+#import <FlutterSDK/FlutterSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface MixVideoPlayerPlugin : NSObject<FlutterPlugin>
+@interface MixVideoPlayerPlugin : NSObject<FlutterPluginSDK>
 
 @end
 

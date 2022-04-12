@@ -6,8 +6,8 @@
 //  Copyright © 2019 The Chromium Authors. All rights reserved.
 //
 
-#import <Flutter/Flutter.h>
+#import <FlutterSDK/FlutterSDK.h>
 
-@interface OssFlutterPlugin : NSObject<FlutterPlugin>
+@interface OssFlutterPlugin : NSObject<FlutterPluginSDK>
 
 @end

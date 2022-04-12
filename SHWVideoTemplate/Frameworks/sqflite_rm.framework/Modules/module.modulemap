@@ -1,0 +1,6 @@
+framework module sqflite_rm {
+  umbrella header "sqflite_rm-umbrella.h"
+
+  export *
+  module * { export * }
+}

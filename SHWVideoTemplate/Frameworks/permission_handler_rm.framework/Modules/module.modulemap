@@ -1,0 +1,6 @@
+framework module permission_handler_rm {
+  umbrella header "permission_handler_rm-umbrella.h"
+
+  export *
+  module * { export * }
+}

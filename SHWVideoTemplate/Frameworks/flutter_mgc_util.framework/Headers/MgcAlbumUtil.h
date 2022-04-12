@@ -12,6 +12,13 @@ typedef void(^AlbumSuccessBlock)(BOOL succeed, NSString *error);
 
 @interface MgcAlbumUtil : NSObject
 
-+ (void)saveVideoToAlbum:(NSString *)filePath comlete:(AlbumSuccessBlock)block;
+/// 保存图片或视频到相册
+/// @param filePath 文件路径
+/// @param type 文件 类型 ：video   ,  image
+/// @param block 保存回调
++ (void)saveVideoToAlbum:(NSString *)filePath WithType:(NSString *)type comlete:(AlbumSuccessBlock)block;
+
++ (void)saveImageToAlbum:(NSString *)filePath albumName:(NSString *)albumName comlete:(AlbumSuccessBlock)block;
+
 
 @end

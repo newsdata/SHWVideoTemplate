@@ -7,7 +7,6 @@
 
 #import "AppDelegate.h"
 #import <SHWJianBeiMix/SHWJianBeiMix.h>
-#import "GeneratedPluginRegistrant.h"
 
 @interface AppDelegate ()
 

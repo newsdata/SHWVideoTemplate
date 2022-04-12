@@ -82,11 +82,11 @@
 		</data>
 		<key>Headers/MgcAudioExtractEventSink.h</key>
 		<data>
-		GzWxwd2SlveTfLwjweg0NR58xuc=
+		SORnK3b/mMj59eC5jr+m+SPx83I=
 		</data>
 		<key>Headers/MgcAudioExtractor.h</key>
 		<data>
-		LHtgiCkQLGGCcc/0CNEI7m/d0lE=
+		5euT4bzgHo8V+ngH3xD1ngbbbhc=
 		</data>
 		<key>Headers/MgcAudioVolumeExtractor.h</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>Headers/MgcAudioVolumesEventSink.h</key>
 		<data>
-		Q8KHUW3HphRpTWfYuqcDUaNQLI0=
+		G2mx0z2RpVk/1W0yIobmGthmoa4=
 		</data>
 		<key>Headers/MgcCaptureFrameEventSink.h</key>
 		<data>
-		v2ySSOCJUOhkwD9i+wE6Em2n2xU=
+		TqysXyADiEKcp1Gyj2NaA2fIJ6Q=
 		</data>
 		<key>Headers/MgcCaptureFrameProvider.h</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Headers/MgcCombineProvider.h</key>
 		<data>
-		saQrdMdr5aQ2HIFvuwcGGf/WGQE=
+		qMDuyDQ+awwdiJnaE0ayiP1OC7M=
 		</data>
 		<key>Headers/MgcCombineableImp.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Headers/MgcPluginRegistrant.h</key>
 		<data>
-		I19K4zWrHN+q/EaHKe2u3d1TLek=
+		qquuzwPlBaAu1B+4jjUhwD/FM8w=
 		</data>
 		<key>Headers/MgcRouter.h</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>Headers/MgcVideoPlayer.h</key>
 		<data>
-		sJ+3uViGzvheVH2qg0QzZWJDGdA=
+		/Q5Hc/Dmgbw7H8x0U90aN9AXlQA=
 		</data>
 		<key>Headers/MgcVideoPlayerPlugin.h</key>
 		<data>
-		uJjNNcoO9evHZOoZXvxzVAhUsao=
+		/NQQ7TVpZXkeo2atltMyamSCv8s=
 		</data>
 		<key>Headers/MgcVideoRender.h</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Headers/MgcVideoTemplateManager.h</key>
 		<data>
-		HeceYT/K4akwIZ4OM+86oc4jdJk=
+		4ZgLUMjGCRYZLEXTDCOQS/1L0SU=
 		</data>
 		<key>Headers/SHWJianBeiMix.h</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		b42D0JUJmTB8uOBJyN4EWJ7m4H4=
+		EqeZ1sr0hHN2IkuSGn2/RlRt68U=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -400,22 +400,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GzWxwd2SlveTfLwjweg0NR58xuc=
+			SORnK3b/mMj59eC5jr+m+SPx83I=
 			</data>
 			<key>hash2</key>
 			<data>
-			x3Yd5Qjmeay1qr6nejezfdoJWuwP02Qiy1NvBCcE7Oc=
+			BJSicFGxCGoPEMv2FsUuxG4vXvISF+jEr72L2Aa6A9M=
 			</data>
 		</dict>
 		<key>Headers/MgcAudioExtractor.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LHtgiCkQLGGCcc/0CNEI7m/d0lE=
+			5euT4bzgHo8V+ngH3xD1ngbbbhc=
 			</data>
 			<key>hash2</key>
 			<data>
-			AjWS1n3dDLL6zMpph5IoI89BL93ZITO58AkF5Qk2ROw=
+			Dvxw6f7jtcpn5+Ra2VzNBCDWh9YZzpP2nez/6AEjl6U=
 			</data>
 		</dict>
 		<key>Headers/MgcAudioVolumeExtractor.h</key>
@@ -433,22 +433,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q8KHUW3HphRpTWfYuqcDUaNQLI0=
+			G2mx0z2RpVk/1W0yIobmGthmoa4=
 			</data>
 			<key>hash2</key>
 			<data>
-			PasJrTfwhKodB/A9i/klhO7ADQQzJDyYNjv1AyDHEUE=
+			V5Ljxch75OJ4SdnuQiKpsSQjVHCDaSfiYP9lPTVcnJg=
 			</data>
 		</dict>
 		<key>Headers/MgcCaptureFrameEventSink.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v2ySSOCJUOhkwD9i+wE6Em2n2xU=
+			TqysXyADiEKcp1Gyj2NaA2fIJ6Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			fZk8SglUfMOjGL7uQB7M9+mjkp2PZpkY/jD0wxdD0qg=
+			wvIfeiSiCptsz/Oxt1y9ja85ktG0Zgb+M6CXgipeGQA=
 			</data>
 		</dict>
 		<key>Headers/MgcCaptureFrameProvider.h</key>
@@ -466,11 +466,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			saQrdMdr5aQ2HIFvuwcGGf/WGQE=
+			qMDuyDQ+awwdiJnaE0ayiP1OC7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			1skyqITwNXxvN4Su3HgYCxTu/784Hs2lBdv8/FPp1hk=
+			oALwMIEzK+KJGeTUVOlnr/INjhizsIgHRT8mBaZarts=
 			</data>
 		</dict>
 		<key>Headers/MgcCombineableImp.h</key>
@@ -543,11 +543,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			I19K4zWrHN+q/EaHKe2u3d1TLek=
+			qquuzwPlBaAu1B+4jjUhwD/FM8w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZlwNfEUh5qopHttf5Iy+ciug/D5B7xGc/FhT9VKredE=
+			u6eggJbeYKoi3kFIXkbaCHsx8Jn2vt1uW/MS5ioXtmQ=
 			</data>
 		</dict>
 		<key>Headers/MgcRouter.h</key>
@@ -576,22 +576,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sJ+3uViGzvheVH2qg0QzZWJDGdA=
+			/Q5Hc/Dmgbw7H8x0U90aN9AXlQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			l/A7xYuTmun1khBMdUl/wQcyREn20+5iKw15iKbny6E=
+			8q5NJTqulsDq+4YE+DU+Y74A/gIahKaHIzJqK4A5cg0=
 			</data>
 		</dict>
 		<key>Headers/MgcVideoPlayerPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uJjNNcoO9evHZOoZXvxzVAhUsao=
+			/NQQ7TVpZXkeo2atltMyamSCv8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			yrWWUsBGesufj6Zv33AwhYvth9uhqZpMunvq19+JMiY=
+			UHnNGyMHKGJbFKgU7cgYG3uKJHJB+Ng0HveX34hLldQ=
 			</data>
 		</dict>
 		<key>Headers/MgcVideoRender.h</key>
@@ -620,11 +620,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HeceYT/K4akwIZ4OM+86oc4jdJk=
+			4ZgLUMjGCRYZLEXTDCOQS/1L0SU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bdD9bqcGQ+kMaNBzTVvDi4P9Em96EDPgpyM7ayrBStQ=
+			SmXGrAXPYYAfxJYHD6mmFd4WFOlYOVP59p3xai+vulE=
 			</data>
 		</dict>
 		<key>Headers/SHWJianBeiMix.h</key>
