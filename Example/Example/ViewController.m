@@ -64,13 +64,12 @@
         NSLog(@"合成错误：%@",error);
     };
     instance.tokenErrorBlock = ^(NSString * _Nonnull error) {
-        NSLog(@"token 验证失败：%@",error);
-        [self.engine.viewController dismissViewControllerAnimated:NO completion:^{
-            //释放 engine
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self.engine destroyContext];
-            });
-        }];
+        NSLog(@"error 信息：%@",error);
+        
+        //需要释放 engine 可调用下方代码
+//        dispatch_async(dispatch_get_main_queue(), ^{
+//            [self.engine destroyContext];
+//        });
     };
     
 }
@@ -82,14 +81,17 @@
 
 - (void)tapButton:(UIButton *)button {
     
-    self.engine = [[FlutterEngineSDK alloc]initWithName:@"io.flutter"];
-    [self.engine run];
+    if (!self.engine) {
+        self.engine = [[FlutterEngineSDK alloc]initWithName:@"io.flutter.rongmei"];
+        [self.engine run];
+        
+        [RMGeneratedPluginRegistrant registerWithRegistry:self.engine];
+        [MgcPluginRegistrant registerWithRegistry:self.engine];
+    }
     
     FlutterViewControllerSDK *vc = [[FlutterViewControllerSDK alloc]initWithEngine:self.engine nibName:nil bundle:nil];
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
-    
-    [RMGeneratedPluginRegistrant registerWithRegistry:vc];
-    [MgcPluginRegistrant registerWithRegistry:vc];
+    vc = self.engine.viewController;
     
 #pragma mark --- 填写 自己的 token  和  eventId ----------
     
