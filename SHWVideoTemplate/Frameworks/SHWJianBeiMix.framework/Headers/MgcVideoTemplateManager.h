@@ -11,7 +11,7 @@
 //NS_ASSUME_NONNULL_BEGIN
 
 ///合成成功回调
-typedef void(^SyntheticResultBlock)(NSString *resultPath);
+typedef void(^SyntheticResultBlock)(NSDictionary *result);
 
 ///合成错误回调
 typedef void(^SyntheticResultErrorBlock)(NSString *error);
@@ -22,6 +22,7 @@ typedef void(^MgcUserTokenError)(NSString *error);
 @interface MgcVideoTemplateManager : NSObject
 
 ///合成成功回调
+///result @{@"syntheticResultPath" : xxx ,@"title": xxx }
 @property (nonatomic,copy) SyntheticResultBlock resultBlock;
 ///合成失败回调
 @property (nonatomic,copy) SyntheticResultErrorBlock errorBlock;

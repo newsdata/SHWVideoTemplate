@@ -52,8 +52,11 @@
 
 //    [instance setToken: @"xxx" AndEventId:@"xxxx"];
     
-    instance.resultBlock = ^(NSString * _Nonnull resultPath) {
-        NSLog(@"合成路径：%@",resultPath);
+    instance.resultBlock = ^(NSDictionary * result) {
+        NSString *resultPath = result[@"syntheticResultPath"];
+        NSString *title = result[@"title"];
+        NSLog(@"合成路径：%@,文件title:%@",resultPath,title);
+        
         if ([[NSFileManager defaultManager] fileExistsAtPath:resultPath]) {
             NSInteger fileSize = [[[NSFileManager defaultManager] attributesOfItemAtPath:resultPath error:nil] fileSize];
             AVURLAsset *asset = [AVURLAsset assetWithURL:[NSURL fileURLWithPath:resultPath]];
@@ -66,15 +69,14 @@
     instance.tokenErrorBlock = ^(NSString * _Nonnull error) {
         NSLog(@"error 信息：%@",error);
         if (![error isEqualToString:@"closePage"]) {
-            [self.engine.viewController dismissViewControllerAnimated:YES completion:nil];
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self.engine destroyContext];
-            });
+            [self.engine.viewController dismissViewControllerAnimated:NO completion:^{
+                //释放 engine 调用下方代码
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [self.engine destroyContext];
+                    self.engine = nil;
+                });
+            }];
         }
-        //需要释放 engine 可调用下方代码
-        //        dispatch_async(dispatch_get_main_queue(), ^{
-        //            [self.engine destroyContext];
-        //        });
     };
     
 }
