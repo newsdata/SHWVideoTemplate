@@ -22,7 +22,6 @@ typedef void(^MgcUserTokenError)(NSString *error);
 @interface MgcVideoTemplateManager : NSObject
 
 ///合成成功回调
-///result @{@"syntheticResultPath" : xxx ,@"title": xxx }
 @property (nonatomic,copy) SyntheticResultBlock resultBlock;
 ///合成失败回调
 @property (nonatomic,copy) SyntheticResultErrorBlock errorBlock;
@@ -32,11 +31,11 @@ typedef void(^MgcUserTokenError)(NSString *error);
 
 @property (nonatomic,strong) FlutterMethodChannel *channel;
 
-@property (nonatomic,strong) NSString *cookContent;
+@property (nonatomic,strong) NSString *mToken;
 @property (nonatomic,strong) NSString *syntheticFolderPath;
 
-///设置用户eventId和cook
-- (BOOL)setToken:(NSString *)token AndEventId:(NSString *)eventId;
+///设置用户token
+- (BOOL)setToken:(NSString *)token;
 
 ///设置合成视频路径
 -(void)setSyntheticPath:(NSString*)folderPath;

@@ -18,8 +18,6 @@
 
 @property (nonatomic,strong) NSString *token;
 
-@property (nonatomic,strong) NSString *eventId;
-
 @end
 
 @implementation ViewController
@@ -41,16 +39,9 @@
     tokenField.delegate = self;
     [self.view addSubview:tokenField];
     
-    UITextField *eventIdField = [[UITextField alloc]initWithFrame:CGRectMake(50, 230, [UIScreen mainScreen].bounds.size.width-100, 44)];
-    eventIdField.placeholder = @"请输入eventId";
-    eventIdField.borderStyle = UITextBorderStyleRoundedRect;
-    eventIdField.tag = 20;
-    eventIdField.delegate = self;
-    [self.view addSubview:eventIdField];
-    
     MgcVideoTemplateManager *instance = [MgcVideoTemplateManager sharedManager];
-
-//    [instance setToken: @"xxx" AndEventId:@"xxxx"];
+#pragma mark --- 填写 自己的 token---------
+    [instance setToken: @"xxx"];
     
     instance.resultBlock = ^(NSDictionary * result) {
         NSString *resultPath = result[@"syntheticResultPath"];
@@ -100,27 +91,13 @@
     vc.modalPresentationStyle = UIModalPresentationFullScreen;
     vc = self.engine.viewController;
     
-#pragma mark --- 填写 自己的 token  和  eventId ----------
-    
-    self.token = @"A8C54C35ED5476A08859D07F34BC9BF3";
-    self.eventId = @"5JClsugYQmYBAawe/j5k2K5/";
-    
-    
-    if (self.token && self.eventId) {
-        [[MgcVideoTemplateManager sharedManager] setToken:self.token AndEventId:self.eventId];
-    }
-    
     [self presentViewController:vc animated:NO completion:nil];
 
 }
 
 
 - (void)textFieldDidEndEditing:(UITextField *)textField {
-    if (textField.tag == 10) {
-        self.token = textField.text;
-    }else if (textField.tag == 20) {
-        self.eventId = textField.text;
-    }
+    self.token = textField.text;
 }
 
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
