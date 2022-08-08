@@ -26,11 +26,18 @@
     [super viewDidLoad];
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeSystem];
-    button.frame = CGRectMake(50, 300, 80, 35);
+    button.frame = CGRectMake(50, 280, 80, 35);
     [button setTitle:@"跳转视频模板" forState:UIControlStateNormal];
     [self.view addSubview:button];
     [button addTarget:self action:@selector(tapButton:) forControlEvents:UIControlEventTouchUpInside];
     [button sizeToFit];
+    
+    UIButton *button1 = [UIButton buttonWithType:UIButtonTypeSystem];
+    button1.frame = CGRectMake(50, 335, 80, 35);
+    [button1 setTitle:@"删除草稿" forState:UIControlStateNormal];
+    [self.view addSubview:button1];
+    [button1 addTarget:self action:@selector(tap:) forControlEvents:UIControlEventTouchUpInside];
+    [button1 sizeToFit];
     
     UITextField *tokenField = [[UITextField alloc]initWithFrame:CGRectMake(50, 180, [UIScreen mainScreen].bounds.size.width-100, 44)];
     tokenField.tag = 10;
@@ -72,8 +79,8 @@
     
 }
 
-- (IBAction)tap:(id)sender {
-    
+- (void)tap:(id)sender {
+    [[MgcVideoTemplateManager sharedManager] deleteDrafts];
 }
 
 
@@ -107,7 +114,6 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
-    [[MgcVideoTemplateManager sharedManager] deleteDrafts];
     
 }
 
