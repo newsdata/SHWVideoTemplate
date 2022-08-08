@@ -41,7 +41,7 @@
     
     MgcVideoTemplateManager *instance = [MgcVideoTemplateManager sharedManager];
 #pragma mark --- 填写 自己的 token---------
-    [instance setToken: @"xxx"];
+    [instance setToken: @""];
     
     instance.resultBlock = ^(NSDictionary * result) {
         NSString *resultPath = result[@"syntheticResultPath"];
@@ -73,7 +73,7 @@
 }
 
 - (IBAction)tap:(id)sender {
-
+    
 }
 
 
@@ -107,6 +107,8 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
+    [[MgcVideoTemplateManager sharedManager] deleteDrafts];
+    
 }
 
 @end

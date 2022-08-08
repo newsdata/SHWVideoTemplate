@@ -114,9 +114,11 @@
 @import webview_flutter_rm;
 #endif
 
+
 @implementation RMGeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistrySDK>*)registry {
+   
   [RMAudioplayersPlugin registerWithRegistrar:[registry registrarForPlugin:@"RMAudioplayersPlugin"]];
   [RMFLTConnectivityPlugin registerWithRegistrar:[registry registrarForPlugin:@"RMFLTConnectivityPlugin"]];
   [RMFLTDeviceInfoPlugin registerWithRegistrar:[registry registrarForPlugin:@"RMFLTDeviceInfoPlugin"]];

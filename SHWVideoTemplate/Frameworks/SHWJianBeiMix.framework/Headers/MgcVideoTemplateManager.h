@@ -32,13 +32,19 @@ typedef void(^MgcUserTokenError)(NSString *error);
 @property (nonatomic,strong) FlutterMethodChannel *channel;
 
 @property (nonatomic,strong) NSString *mToken;
+
 @property (nonatomic,strong) NSString *syntheticFolderPath;
+
+@property (nonatomic, assign) BOOL isWaitDelete;
 
 ///设置用户token
 - (BOOL)setToken:(NSString *)token;
 
 ///设置合成视频路径
--(void)setSyntheticPath:(NSString*)folderPath;
+- (void)setSyntheticPath:(NSString*)folderPath;
+
+/// 删除所有草稿
+- (void)deleteDrafts;
 
 ///设置合成结果回调 (也可通过属性直接赋值)
 - (void)addSyntheticResultListener:(SyntheticResultBlock)block;
