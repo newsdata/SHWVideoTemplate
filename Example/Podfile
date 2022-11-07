@@ -7,7 +7,7 @@ platform :ios, '9.0'
 
 target 'Example' do
    pod 'SHWVideoTemplate', :path => '../'
-#  pod 'SHWVideoTemplate','0.1.4'
+#  pod 'SHWVideoTemplate','0.1.6'
 
 end
 
