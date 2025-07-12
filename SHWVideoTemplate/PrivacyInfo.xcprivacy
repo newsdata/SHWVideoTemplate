@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrivacyInfo>
+    <PrivacyTypes>
+        <PrivacyType>
+            <NSPrivacyTypeUsage>NSPrivacyTypeCamera</NSPrivacyTypeUsage>
+            <NSPrivacyAccessedAPIs>
+                <NSPrivacyAccessedAPI>NSPrivacyAccessedAPICamera</NSPrivacyAccessedAPI>
+            </NSPrivacyAccessedAPIs>
+        </PrivacyType>
+        <PrivacyType>
+            <NSPrivacyTypeUsage>NSPrivacyTypeMicrophone</NSPrivacyTypeUsage>
+            <NSPrivacyAccessedAPIs>
+                <NSPrivacyAccessedAPI>NSPrivacyAccessedAPIMicrophone</NSPrivacyAccessedAPI>
+            </NSPrivacyAccessedAPIs>
+        </PrivacyType>
+        <PrivacyType>
+            <NSPrivacyTypeUsage>NSPrivacyTypePhotoLibrary</NSPrivacyTypeUsage>
+            <NSPrivacyAccessedAPIs>
+                <NSPrivacyAccessedAPI>NSPrivacyAccessedAPIPhotoLibrary</NSPrivacyAccessedAPI>
+            </NSPrivacyAccessedAPIs>
+        </PrivacyType>
+        <PrivacyType>
+            <NSPrivacyTypeUsage>NSPrivacyTypeLocation</NSPrivacyTypeUsage>
+            <NSPrivacyAccessedAPIs>
+                <NSPrivacyAccessedAPI>NSPrivacyAccessedAPILocation</NSPrivacyAccessedAPI>
+            </NSPrivacyAccessedAPIs>
+        </PrivacyType>
+    </PrivacyTypes>
+</PrivacyInfo>

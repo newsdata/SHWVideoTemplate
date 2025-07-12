@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'SHWVideoTemplate/Classes/**/*'
+  s.resources = 'SHWVideoTemplate/PrivacyInfo.xcprivacy'
   s.vendored_frameworks = 'SHWVideoTemplate/Frameworks/App.framework','SHWVideoTemplate/Frameworks/*.framework'
   
   
