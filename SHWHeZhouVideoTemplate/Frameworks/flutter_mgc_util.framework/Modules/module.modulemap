@@ -1,0 +1,6 @@
+framework module flutter_mgc_util {
+  umbrella header "flutter_mgc_util-umbrella.h"
+
+  export *
+  module * { export * }
+}

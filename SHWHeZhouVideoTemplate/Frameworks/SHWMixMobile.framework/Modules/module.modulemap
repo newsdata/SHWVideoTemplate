@@ -1,0 +1,6 @@
+framework module SHWMixMobile {
+  umbrella header "SHWMixMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}

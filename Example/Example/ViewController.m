@@ -48,7 +48,7 @@
     
     MgcVideoTemplateManager *instance = [MgcVideoTemplateManager sharedManager];
 #pragma mark --- 填写 自己的 token---------
-    [instance setToken: @"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlX2lkIjoxMjc4LCJ1c2VyX2lkIjo1NDAwLCJkZXB0X2lkIjo2OTEsInRlbmFudF9pZCI6MTk3LCJpc19hZG1pbiI6MCwidXNlcm5hbWUiOiJ4dXNob3V0YW8iLCJyZWFsbmFtZSI6IuW-kOmmlumfrCIsImRldmljZSI6MywiaXNzIjoiaHR0cDovL2d4cmIuY29tLmNuIiwiYXVkIjoiaHR0cDovL2d4cmIuY29tLmNuIiwiaWF0IjoxNzExNTM1OTcxLCJleHAiOjE3MTIxNDA3NzF9.wgSgVs3JpLF5s04Mx6j5Ipe51x0XXnfaVEUPlvLVXB0"];
+    [instance setToken: @"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlX2lkIjoxMjc4LCJ1c2VyX2lkIjo3NjE0LCJkZXB0X2lkIjo2OTEsInRlbmFudF9pZCI6MTk3LCJpc19hZG1pbiI6MCwidXNlcm5hbWUiOiJzdW55YyIsInJlYWxuYW1lIjoi5a2Z6L-c5Z-OIiwiZGV2aWNlIjozLCJpc3MiOiJodHRwOi8vZ3hyYi5jb20uY24iLCJhdWQiOiJodHRwOi8vZ3hyYi5jb20uY24iLCJpYXQiOjE3NTIyODg1MDcsImV4cCI6MTc1NDEwMjkwN30.ZprSpuXHgGBf84_6gTuE_OwyxV_xpezsLwRjA8R2ZBo"];
     
     instance.resultBlock = ^(NSDictionary * result) {
         NSString *resultPath = result[@"syntheticResultPath"];

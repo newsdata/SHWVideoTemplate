@@ -6,8 +6,8 @@ use_frameworks!
 platform :ios, '12.0'
 
 target 'Example' do
-   pod 'SHWVideoTemplate', :path => '../'
-#  pod 'SHWVideoTemplate','0.1.6'
+   pod 'SHWHeZhouVideoTemplate', :path => '../'
+#  pod 'SHWHeZhouVideoTemplate','0.1.6'
 
 end
 
