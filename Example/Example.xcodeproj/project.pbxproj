@@ -381,9 +381,10 @@
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = R43737H5WP;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = QLN3263997;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphoneos*]" = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -392,9 +393,9 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Example/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "视频模板示例";
+				INFOPLIST_KEY_CFBundleDisplayName = "超级成片";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSCameraUsageDescription = "允许使用相机";
-				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "允许视频通话";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "允许添加相册";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "允许使用相册";
@@ -410,8 +411,13 @@
 				);
 				MARKETING_VERSION = 1.0.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xhzy.test.framework.xxff;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzcx.aivideo.yz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -424,9 +430,10 @@
 				ARCHS = arm64;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
-				DEVELOPMENT_TEAM = R43737H5WP;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = QLN3263997;
 				ENABLE_BITCODE = NO;
 				"EXCLUDED_ARCHS[sdk=iphoneos*]" = armv7;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -435,9 +442,9 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Example/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "视频模板示例";
+				INFOPLIST_KEY_CFBundleDisplayName = "超级成片";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSCameraUsageDescription = "允许使用相机";
-				INFOPLIST_KEY_NSMainNibFile = Main;
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "允许视频通话";
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "允许添加相册";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "允许使用相册";
@@ -452,8 +459,13 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xhzy.test.framework.xxff;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yzcx.aivideo.yz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

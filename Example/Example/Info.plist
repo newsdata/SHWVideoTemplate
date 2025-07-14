@@ -26,6 +26,8 @@
 			</array>
 		</dict>
 	</dict>
+	<key>UIMainStoryboardFile~iphone</key>
+	<string>Main</string>
 	<key>io.flutter.embedded_views_preview</key>
 	<true/>
 </dict>
