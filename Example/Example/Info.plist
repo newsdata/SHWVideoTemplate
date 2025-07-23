@@ -30,5 +30,7 @@
 	<string>Main</string>
 	<key>io.flutter.embedded_views_preview</key>
 	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+    <string>我们需要访问您的音乐资料，以提供相关播放。</string>
 </dict>
 </plist>
